@@ -1,7 +1,12 @@
 <script>
+	import { ParaglideJS } from '@inlang/paraglide-sveltekit'
+	import { i18n } from '$lib/i18n'
+
 	import Header from './Header.svelte';
 	import './styles.css';
 </script>
+<ParaglideJS {i18n}>
+
 
 <div class="app">
 	<Header />
@@ -15,7 +20,8 @@
 	</footer>
 </div>
 
-<style>
+
+</ParaglideJS><style>
 	.app {
 		display: flex;
 		flex-direction: column;
