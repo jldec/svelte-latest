@@ -20,7 +20,7 @@
 		"typescript": "^5.0.0",
 		"vite": "^5.0.3",
 		"@inlang/paraglide-sveltekit": "../monorepo/inlang/source-code/paraglide/paraglide-sveltekit",
-		"@inlang/paraglide-js": "1.9.1"
+		"@inlang/paraglide-js": "../monorepo/inlang/source-code/paraglide/paraglide-js"
 	},
 	"type": "module"
 }
